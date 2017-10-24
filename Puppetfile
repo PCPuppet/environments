@@ -23,5 +23,5 @@ forge "https://forgeapi.puppetlabs.com"
 
 # my super great apache module
  mod 'apache',
-   :git => 'https://github.com/pcpuppet/testrepo.git',
+   :git => 'https://github.com/pcpuppet/apache.git',
    :branch => 'master'
