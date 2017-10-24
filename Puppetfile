@@ -3,11 +3,6 @@
 
 forge "https://forgeapi.puppetlabs.com"
 
-# use dependencies defined in metadata.json
-metadata
-
-# use dependencies defined in Modulefile
-# modulefile
 
 # A module from the Puppet Forge
  mod 'puppetlabs-stdlib'
@@ -22,9 +17,6 @@ metadata
    :ref => '1.4.x'
 
 # my test repo
-mod 'testrepo',
-   :git => 'https://github.com/pcpuppet/testrepo.git'
+ mod 'testrepo',
+   :git => 'https://github.com/pcpuppet/testrepo.git',
    :branch => 'master' 
-
-# A module from Github pre-packaged tarball
-# mod 'puppetlabs-apache', '0.6.0', :github_tarball => 'puppetlabs/puppetlabs-apache'
