@@ -1,3 +1,3 @@
 node /pclab.com/ {
-	include testrepo
+	include role::lamp
 }
